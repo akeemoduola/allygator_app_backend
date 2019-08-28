@@ -1,5 +1,4 @@
 class VehiclesController < ApplicationController
-
   def create
     @vehicle = Vehicle.new(vehicle_params)
     @vehicle.current_latitude = nil
